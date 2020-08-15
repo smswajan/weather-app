@@ -1,0 +1,21 @@
+body {
+    background: url(images/bg-image.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+#city-name {
+    font-size: 50px;
+}
+
+#temperature{
+    font-size: 100px;
+}
+
+@media screen and (max-width: 767px){
+    #temperature{
+        font-size: 62px;
+    }
+}
